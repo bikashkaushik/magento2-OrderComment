@@ -1,0 +1,21 @@
+<div data-bind="visible: canVisibleBlock">
+    <div class="payment-option _collapsible opc-payment-additional kaushik-ordercomment comment last"
+         data-bind="mageInit: {'collapsible':{'openedState': '_active'}}">
+        <div class="payment-option-title field choice" data-role="title">
+            <span class="action action-toggle" role="heading" aria-level="2">
+                <!-- ko i18n: 'Leave your Comment'--><!-- /ko -->
+            </span>
+        </div>
+        <div class="payment-option-content" data-role="content">
+            <form class="form form-comment order-comment-form">
+                <div class="payment-option-inner">
+                    <div class="field">
+                        <div class="control">
+                            <textarea class="input-text kaushik_order_comment" name="kaushik_order_comment" rows="4" data-bind="attr:{placeholder: $t('Enter your comment...')} " ></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

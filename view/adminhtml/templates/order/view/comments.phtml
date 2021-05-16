@@ -1,0 +1,12 @@
+<?php
+
+if ($block->getOrderComment()) :?>
+    <section class="admin__page-section kaushik-ordercomment">
+        <div class="admin__page-section-title">
+            <span class="title"><?php /* @noEscape */ echo __('Order Comment') ?></span>
+        </div>
+        <div class="admin__page-section-content">
+            <?php /* @noEscape */ echo nl2br($block->escapeHtml($block->getOrderComment()));?>
+        </div>
+    </section>
+<?php endif; ?>
