@@ -12,5 +12,5 @@
 <li>Free bug fixes.</li>
  </ul>
  
- <h3>Support</h3>
+ <h2>Support</h2>
  <p>If you encounter any problems or bugs, please <a href="https://github.com/bikashkaushik/magento2-ordercomment/issues">open an issue</a> on GitHub.</p>
